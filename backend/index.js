@@ -8,3 +8,4 @@ app.get("/", (request, response) => {
     aluno: "Ricardo Carvalho"
   });
 });
+app.listen(3333);
