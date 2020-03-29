@@ -2,6 +2,8 @@ const express = require("express");
 
 const app = express();
 
+app.use(express.json());
+
 /* *
  * Tipos de parametros
  * Query Params: Parâmetros nomeados enviados na rota após "?" (Filtros, paginações)
@@ -9,9 +11,9 @@ const app = express();
  * Request Body: Ciroi da requisição, utilizado para criar ou alterar outros recursos
  */
 
-app.get("/users/:id", (request, response) => {
-  const params = request.params;
-  console.log(params);
+app.post("/users", (request, response) => {
+  const body = request.body;
+  console.log(body);
   return response.json({
     evento: "Semana omnistack 11.0",
     aluno: "Ricardo Carvalho"
