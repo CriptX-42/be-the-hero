@@ -1,7 +1,8 @@
 import React from "react";
+import Logon from "./pages/Login/index";
 
 function App() {
-  return <h1>Olá mundo</h1>;
+  return <Logon />;
 }
 
 export default App;
