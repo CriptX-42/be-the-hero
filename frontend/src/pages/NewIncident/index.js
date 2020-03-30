@@ -1,11 +1,11 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { FiArrowLeft } from "react-icons/fi";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { FiArrowLeft } from 'react-icons/fi';
 
-import "./style.css";
-import "./style.css";
+import './style.css';
+import './style.css';
 
-import logoImg from "../../assets/logo.svg";
+import logoImg from '../../assets/logo.svg';
 
 export default function NewIncident() {
   return (
