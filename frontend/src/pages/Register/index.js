@@ -23,7 +23,7 @@ export default function Register() {
           </Link>
         </section>
         <form>
-          <input placeholder="Nome da ong" />
+          <input placeholder="Nome da ONG" />
           <input type="email" placeholder="Email" />
           <input placeholder="WhatsApp" />
           <div className="input-group">
